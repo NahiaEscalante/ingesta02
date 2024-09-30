@@ -23,4 +23,4 @@ def export_mysql_to_s3(host, port, user, password, database, table, output_file,
         print(f"Ocurrió un error: {e}")
 
 # Ejemplo de llamada a la función
-export_mysql_to_s3('44.212.63.198', 8005, 'root', 'utec', 'tienda', 'fabricantes', 'data.csv', 'nesc-output-s3')
+export_mysql_to_s3('18.235.6.245', 8005, 'root', 'utec', 'tienda', 'fabricantes', 'data.csv', 'nesc-output-s3')
